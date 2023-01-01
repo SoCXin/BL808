@@ -25,7 +25,7 @@
     },
     "series":["BL808","BL606P"],
     "package":["QFN88"],
-    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "peripheral": ["WiFi","BT","BLE","TIM","ADC","USB","UART","SPI","LDO","PWM"],
     "price":[25,32],
     "EMC": {
         "EFT": 2000,
