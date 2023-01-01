@@ -1,0 +1,47 @@
+{
+    "type":"SoC",
+    "name":"BL808",
+    "title": "bouffalolab BL808",
+    "description":"WiFi/BT/BLE RISC-V BL808 SoC",
+    "version":"1.0.0",
+    "Core": {
+        "num": 1,
+        "type":"RISC-V",
+        "Freq":[8,480],
+        "DMIPS": 400,
+        "CoreMark": 800
+    },
+    "manufacturer": {
+        "vendor":"bouffalolab",
+        "homepage": "https://www.bouffalolab.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/BL808.git"
+    },
+    "support": {
+        "type": "mail",
+        "mail": "support@bouffalolab.com"
+    },
+    "series":["BL808","BL606P"],
+    "package":["QFN88"],
+    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "price":[25,32],
+    "EMC": {
+        "EFT": 2000,
+        "ESD": 4000
+    },
+    "upload": {
+        "ISP": true,
+        "IAP": true,
+        "SWD": true,
+        "speed": 115200
+    },
+    "keywords": [
+        "RISC-V","C906","E907","E902",
+        "bouffalolab",
+        "BL808",
+        "WiFi","BT","BLE","UART","I2C","SPI",
+        "1.8V","3.3V"
+    ]
+}

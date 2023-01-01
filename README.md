@@ -1,24 +1,30 @@
-﻿# [xtensa](https://github.com/sochub/xtensa)
+﻿# [BL808](https://doc.soc.xin/BL808)
 
-[![sites](soc/soc.png)](http://www.qitas.cn) 
+* [bouffalolab](https://www.bouffalolab.com/)：[C906+E907+E902](https://doc.soc.xin/architecture/riscv)
+* [L6R6](https://github.com/SoCXin/Level)：480 MHz
 
-#### 归属：[compiler](https://github.com/sochub/compiler)
+## [简介](https://doc.soc.xin/BL808)
 
-#### [关于嵌入式开发平台](https://github.com/sochub) http://stop.stops.top
-
-## [描述](https://github.com/sochub/xtensa/wiki) 
-
-linux系统环境下xtensa相关资源
-
-## [组成](soc/) 
-
-#### [文档](https://github.com/sochub/xtensa/docs)
-
-#### [编译器](https://github.com/sochub/xtensa/tools)
+[BL808](https://www.bouffalolab.com/)
 
 
----
+### 关键特性
 
-###  [嵌入式开发平台](http://www.qitas.cn)   
+* 480 MHz C906 + 320MHz E907 + 160MHz E902
+* 100GOPS NPU(BLAI-100)
+* MJPEG and H264(Baseline/Main)
+* Wi-Fi 802.11 b/g/n Wi-Fi4
+* Bluetooth 5.x Dual-mode BT + BLE
+* USB HS OTG
 
-###  qitas@qitas.cn
+### [收录资源](https://github.com/SoCXin/BL808)
+
+* [参考资源](src/)
+* [参考文档](docs/)
+* [参考工程](project/)
+
+### [选型建议](https://github.com/SoCXin)
+
+[BL808](https://github.com/SoCXin/BL808)
+
+### [www.SoC.xin](http://www.SoC.Xin)
